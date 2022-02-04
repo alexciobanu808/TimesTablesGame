@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		B091590527A3113100832771 /* TimesTablesGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091590427A3113100832771 /* TimesTablesGameApp.swift */; };
-		B091590727A3113100832771 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091590627A3113100832771 /* ContentView.swift */; };
+		B091590727A3113100832771 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091590627A3113100832771 /* GameView.swift */; };
 		B091590927A3113300832771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B091590827A3113300832771 /* Assets.xcassets */; };
 		B091590C27A3113300832771 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B091590B27A3113300832771 /* Preview Assets.xcassets */; };
+		B091591327A3359900832771 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091591227A3359900832771 /* Question.swift */; };
+		B091591527A33A9B00832771 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B091591427A33A9B00832771 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B091590127A3113100832771 /* TimesTablesGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimesTablesGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B091590427A3113100832771 /* TimesTablesGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimesTablesGameApp.swift; sourceTree = "<group>"; };
-		B091590627A3113100832771 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B091590627A3113100832771 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		B091590827A3113300832771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B091590B27A3113300832771 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B091591227A3359900832771 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		B091591427A33A9B00832771 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				B091590427A3113100832771 /* TimesTablesGameApp.swift */,
-				B091590627A3113100832771 /* ContentView.swift */,
+				B091590627A3113100832771 /* GameView.swift */,
+				B091591427A33A9B00832771 /* SettingsView.swift */,
+				B091591227A3359900832771 /* Question.swift */,
 				B091590827A3113300832771 /* Assets.xcassets */,
 				B091590A27A3113300832771 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B091590727A3113100832771 /* ContentView.swift in Sources */,
+				B091591327A3359900832771 /* Question.swift in Sources */,
+				B091590727A3113100832771 /* GameView.swift in Sources */,
+				B091591527A33A9B00832771 /* SettingsView.swift in Sources */,
 				B091590527A3113100832771 /* TimesTablesGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
